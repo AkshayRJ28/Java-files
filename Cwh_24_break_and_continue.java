@@ -3,7 +3,7 @@ package Practice;
 public class Cwh_24_break_and_continue {
      public static void main(String[]args)
      {
-    	 /*
+    	 
     	 for (int i=0;i<=10;i++)
     	 {
     		 System.out.println(i);
@@ -15,10 +15,10 @@ public class Cwh_24_break_and_continue {
     		 }
     		 System.out.println("break Keyword is Successfully executed");
     	 }
-    	 */
+    	 
     	 
     	 //Using while
-    	 /*
+    	 
     	 int a = 0;
     	 while(a<=5)
     	 {
@@ -32,7 +32,7 @@ public class Cwh_24_break_and_continue {
     		 a++;
     		 
     	 }
-    	 */
+    	 
     	 
     	 //using do while loop
     	 int j = 0;
