@@ -1,4 +1,4 @@
-package collectionByED;
+package Java_concepts;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -47,7 +47,7 @@ public class SortObjectByComparator {
 		List<Student> students = Arrays.asList(new Student("Ascharya",40),new Student("Akshay",40),new Student("Sandesh",10));
 		
 		Comparator<Student> comparator = Comparator.comparing(Student::getGpa).reversed().thenComparing(Student::getName);
-		Collections.sort(students,comparator);
+		Collections.sort(students,comparator);  // reversed => DESC, normal => ASC, first compare GPA if same then by Name
 		//Collections.sort(students,new MyObjectSort());  // by using custom sort implementing comparator
 		
 		//students.sort(comparator); // can write this by using Comparator java 8 feature following code

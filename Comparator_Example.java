@@ -1,4 +1,4 @@
-package collectionByED;
+package Java_concepts;
 
 import java.util.Arrays;
 import java.util.Comparator;
